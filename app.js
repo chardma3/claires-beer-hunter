@@ -12,8 +12,9 @@ document.addEventListener('DOMContentLoaded', (getData) => {
             })
             .then(data => {
                 const name = data[0].name
+                console.log(name)
                 const description = data[0].description
-                const { volume } = data[0]
+                //const { volume } = data[0]
                     //const volumeValue = volume.value
                     //const volumeUnit = volume.volumeUnit
 
