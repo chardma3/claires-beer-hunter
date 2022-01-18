@@ -1,0 +1,70 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&display=swap";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: 'pacifico', cursive;
+    font-size: 50px;
+    height: 100px;
+}
+
+.color-one {
+    background-color: #5438DC;
+    font-family: 'pacifico', cursive;
+}
+
+.color-two {
+    background-color: #56EEF4;
+    font-family: 'Montserrat', serif;
+}
+
+.color-three {
+    background-color: #FCFC62;
+    font-family: 'pacifico', cursive;
+}
+
+.color-four {
+    background-color: #F40076;
+    font-family: 'Montserrat', serif;
+}
+
+.row-height {
+    height: 300px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+/*
+.nav-text {
+    font-size: 50px;
+}
+
+
+/**************************************** Not being used?
+
+.footer {
+    font-family: 'pacifico', cursive;
+    font-size: 50px;
+    height: 100px;
+}
+*/
+
+.social-links li a i {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 9px;
+    text-align: center;
+    color: white;
+    background: #000000;
+    transition: all 0.15s ease-in-out;
+}
